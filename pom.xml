@@ -50,19 +50,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<distributionManagement>
-		<repository>
-              <id>alimaven</id>
-              <name>aliyun maven</name>
-              <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-		</repository>
-		<snapshotRepository>
-              <id>alimaven</id>
-              <name>aliyun maven</name>
-              <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-			<uniqueVersion>false</uniqueVersion>
-		</snapshotRepository>
-	</distributionManagement>
+
 
 	<build>
 		<plugins>
